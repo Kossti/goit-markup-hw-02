@@ -1,0 +1,214 @@
+/* GENERAL STYLES */
+
+:root{
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --second-color: #FFFFFF;
+}
+
+body{
+    font-family:"Roboto", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.btn {
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+    background: var(--accent-color);
+}
+
+/* Header */
+.logo, 
+.accent,
+.accent-part {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: #000000;
+        text-decoration: none;
+        background: #FFFFFF;
+}
+.accent {
+    color: #2196F3;
+}
+
+.header-link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+
+.header-contacts {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+
+}
+
+/* HERO */
+.hero-titel {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #2F303A;
+}
+
+.hero-btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        background: #2196F3;
+}
+
+/* Якості */
+.hide {
+    visibility: hidden;
+}
+
+.quality-section,
+.about {
+    background: #F5F5F5;
+}
+.quality-titel {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.quality-description {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* Галерея прикладів робіт */
+
+.about-titel,
+.staff-titel {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+/* Наша команда */
+.staff-list {
+    background: #FFFFFF;
+}
+.staff-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.staff-position {
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* FOOTER */
+.adress {
+    background: #2F303A;
+}
+.adress-item {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.adress-item-contacs {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+/* ПОРТФОЛІО */
+.buttons-btn {
+        cursor: pointer;
+        background: #F5F4FA;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        
+}
+.buttons-btn :hover,
+.buttons-btn :focus {
+    color: var(--second-color)
+}
+
+.projects-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.projects-item-titel {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.project-item-description {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+
+
