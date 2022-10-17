@@ -153,8 +153,11 @@ body{
 }
 
 /* Наша команда */
-.staff-list {
-    background: var(--background-bgsection-color);
+.staff {
+        background-color: var(--background-bgsection-color);
+}
+.staff-item {
+    background-color: var(--second-color);
 }
 .staff-name {
         font-weight: 500;
